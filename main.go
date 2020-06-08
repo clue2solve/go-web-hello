@@ -7,7 +7,7 @@ import (
 
 // Define a home handler function which writes a byte slice containing // "Hello from Snippetbox" as the response body.
 func home(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hello from Go World"))
+	w.Write([]byte("Hello from Go World - to the real world"))
 }
 func main() {
 	// Use the http.NewServeMux() function to initialize a new servemux, then // register the home function as the handler for the "/" URL pattern.
