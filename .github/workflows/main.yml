@@ -1,4 +1,4 @@
-name: Java CI with Maven and CD with CF CLI
+name: Simple Go App using CD with CF CLI
 
 on:
   push:
