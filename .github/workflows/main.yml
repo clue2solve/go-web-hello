@@ -6,9 +6,9 @@ on:
   pull_request:
     branches: [ master ]
   workflow_dispatch:
-    inputs:
-      tags:
-        description: 'Tag'  
+#     inputs:
+#       tags:
+#         description: 'Tag'  
 jobs:
   build:
 
